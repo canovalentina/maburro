@@ -4,15 +4,6 @@ function walk(node)
 {
     
     var child, next;
-    console.log(node);
-    console.log(node.classList);
-
-    
-    //if (node.tagName.toLowerCase() == 'input' || node.tagName.toLowerCase() == 'textarea') {
-    //     //!node.classList.contains('ace_editor')){
-        //return;
-    //}
-
 
     switch ( node.nodeType )  
     {
